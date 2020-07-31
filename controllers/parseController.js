@@ -1,7 +1,7 @@
 const express = require('express')
 const router = express.Router()
 
-const parse = require('../services')
+const {parse} = require('../services')
 
 // https://open.spotify.com/track/4oRgpwXGPigjcEkp0mPgad?si=to-k0roCRzeRaefFB5BM9w
 

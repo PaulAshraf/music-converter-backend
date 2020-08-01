@@ -3,8 +3,6 @@ const router = express.Router()
 
 const {parse} = require('../services')
 
-// https://open.spotify.com/track/4oRgpwXGPigjcEkp0mPgad?si=to-k0roCRzeRaefFB5BM9w
-
 router.get('/', async (req, res) => {
     let url = req.body.url
     let service = req.body.service

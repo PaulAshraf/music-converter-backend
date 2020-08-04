@@ -3,7 +3,7 @@ const router = express.Router()
 
 const {parse, convert} = require('../services')
 
-router.get('/', async (req, res) => {
+router.post('/', async (req, res) => {
     let url = req.body.url
     let fromService = req.body.fromService
     let toService = req.body.toService

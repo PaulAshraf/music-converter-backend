@@ -6,7 +6,6 @@
   "scripts": {
     "dev": "nodemon",
     "start":"node app.js",
-    "build":"vercel build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

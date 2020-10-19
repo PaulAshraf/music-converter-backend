@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({ extended: true }))
 app.use(bodyParser.json())
 app.use(bodyParser.raw())
 
-app.get('/', (req, res) => {
+app.get('/', (_, res) => {
   let path = __dirname + '/README.md'
   fs.readFile(path, 'utf8', (err, data) => {
     if(err) {

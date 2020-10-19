@@ -4,8 +4,9 @@
   "description": "An API for converting spotify links into apple music links and vice versa.",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon",
-    "start-prod":"node app.js",
+    "dev": "nodemon",
+    "start":"node app.js",
+    "build":"vercel build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
